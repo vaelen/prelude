@@ -1,1 +1,1 @@
-(setq prelude-guru nil)
+;(setq prelude-guru nil)
