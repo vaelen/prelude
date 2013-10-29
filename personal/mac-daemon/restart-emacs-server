@@ -1,4 +1,7 @@
 #!/bin/bash
 
-launchctl stop gnu.emacs.daemon
+emacsclient -e '(server-shutdown)'
+
+sleep 5
+
 launchctl start gnu.emacs.daemon
