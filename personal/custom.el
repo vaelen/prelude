@@ -1,0 +1,55 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(TeX-PDF-mode t)
+ '(ansi-color-names-vector ["#3F3F3F" "#CC9393" "#7F9F7F" "#F0DFAF" "#8CD0D3" "#DC8CC3" "#93E0E3" "#DCDCCC"])
+ '(custom-enabled-themes (quote (sanityinc-solarized-dark)))
+ '(custom-safe-themes (quote ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
+ '(erc-autoaway-idle-seconds 600)
+ '(erc-autojoin-channels-alist (quote (("techops.kabam" "#coreapi" "#kabamdotcom" "#smartbomb") ("hoot.wonderhill.com" "#kabamdotcom" "#coreapi" "#smartbomb"))))
+ '(erc-autojoin-mode t)
+ '(erc-button-mode t)
+ '(erc-dcc-mode t)
+ '(erc-fill-mode t)
+ '(erc-hl-nicks-mode t)
+ '(erc-interpret-mirc-color t)
+ '(erc-irccontrols-mode t)
+ '(erc-kill-buffer-on-part t)
+ '(erc-kill-queries-on-quit t)
+ '(erc-kill-server-buffer-on-quit t)
+ '(erc-list-mode t)
+ '(erc-log-channels-directory "~/.erc/logs/")
+ '(erc-match-mode t)
+ '(erc-menu-mode t)
+ '(erc-modules (quote (autojoin button completion dcc fill irccontrols list match menu move-to-prompt netsplit networks noncommands readonly ring stamp spelling track truncate hl-nicks)))
+ '(erc-move-to-prompt-mode t)
+ '(erc-netsplit-mode t)
+ '(erc-networks-mode t)
+ '(erc-noncommands-mode t)
+ '(erc-notifications-mode t)
+ '(erc-pcomplete-mode t)
+ '(erc-query-display (quote buffer))
+ '(erc-readonly-mode t)
+ '(erc-ring-mode t)
+ '(erc-server-coding-system (quote (utf-8 . utf-8)))
+ '(erc-spelling-mode t)
+ '(erc-stamp-mode t)
+ '(erc-track-minor-mode t)
+ '(erc-track-mode t)
+ '(erc-truncate-mode t)
+ '(fci-rule-color "#383838")
+ '(indent-tabs-mode nil)
+ '(latex-run-command "pdflatex")
+ '(tab-width 4)
+ '(vc-annotate-background "#2B2B2B")
+ '(vc-annotate-color-map (quote ((20 . "#BC8383") (40 . "#CC9393") (60 . "#DFAF8F") (80 . "#D0BF8F") (100 . "#E0CF9F") (120 . "#F0DFAF") (140 . "#5F7F5F") (160 . "#7F9F7F") (180 . "#8FB28F") (200 . "#9FC59F") (220 . "#AFD8AF") (240 . "#BFEBBF") (260 . "#93E0E3") (280 . "#6CA0A3") (300 . "#7CB8BB") (320 . "#8CD0D3") (340 . "#94BFF3") (360 . "#DC8CC3"))))
+ '(vc-annotate-very-old-color "#DC8CC3")
+ '(whitespace-style (quote (face tabs empty trailing))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(rainbow-delimiters-unmatched-face ((t (:background "dark red" :foreground "white")))))
