@@ -1,2 +1,2 @@
-;(setq prelude-guru nil)
+(setq guru-warn-only nil)
 (key-chord-mode -1)
