@@ -1,2 +1,2 @@
 (setq guru-warn-only nil)
-(key-chord-mode -1)
+;(key-chord-mode -1)

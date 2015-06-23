@@ -1,1 +1,0 @@
-/Users/ayoung/repos/soda/wske/utils/wske.el
