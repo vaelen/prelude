@@ -58,8 +58,8 @@
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(prelude-guru t)
- '(prelude-theme (quote zenburn))
  '(tab-width 4)
+ '(user-mail-address "ayoung@boongroup.com")
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map
    (quote
