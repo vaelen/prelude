@@ -59,11 +59,24 @@
  '(indent-tabs-mode nil)
  '(js2-basic-offset 2)
  '(latex-run-command "pdflatex")
+ '(lisp-mode-hook
+   (quote
+    (common-lisp-lisp-mode-hook slime-lisp-mode-hook sly-editing-mode)))
  '(menu-bar-mode t)
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
+ '(package-selected-packages
+   (quote
+    (fish-mode csv-mode function-args ac-etags auto-complete-exuberant-ctags ctags ggtags helm helm-gtags cmake-mode js-comint jade nodejs-repl python-mode which-key crux zop-to-char zenburn-theme w3m volatile-highlights vkill undo-tree smartrep smartparens smart-mode-line sly-repl-ansi-color sly-quicklisp slime-docker slack rainbow-delimiters rainbow-blocks python projectile ov operate-on-number move-text mongo markdown-mode magit json-mode imenu-anywhere guru-mode grizzl god-mode go-mode go-autocomplete gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region exec-path-from-shell erc-yt erc-image erc-hl-nicks erc-crypt easy-kill discover-my-major diminish diff-hl csharp-mode browse-kill-ring beacon anzu adjust-parens ace-window ac-slime)))
  '(prelude-guru t)
+ '(safe-local-variable-values
+   (quote
+    ((define-key
+       (current-local-map)
+       ""
+       (quote compile))
+     (setq compile-command "~/go/src/github.com/vaelen/db/build.sh"))))
  '(tab-width 4)
  '(user-mail-address "ayoung@boongroup.com")
  '(vc-annotate-background "#2B2B2B")
