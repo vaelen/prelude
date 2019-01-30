@@ -1,6 +1,8 @@
+(prelude-require-packages '(auto-complete sly ac-sly sly-repl-ansi-color sly-quicklisp))
+
 (ac-config-default)
 
-(add-hook 'slime-mode-hook 'set-up-slime-ac)
-(add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
+(add-hook 'sly-mode-hook 'set-up-sly-ac)
+(add-hook 'sly-repl-mode-hook 'set-up-sly-ac)
 (eval-after-load "auto-complete"
-  '(add-to-list 'ac-modes 'slime-repl-mode))
+  '(add-to-list 'ac-modes 'sly-repl-mode))
