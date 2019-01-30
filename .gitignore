@@ -15,7 +15,6 @@ ede-projects.el
 places
 .smex-items
 savefile/
-/prelude-modules.el
 projectile-bookmarks.eld
 session*
 .cask
@@ -25,3 +24,10 @@ tramp
 personal/kabam-irc.el
 ido.last
 ac-comphist.dat
+
+.emacs.desktop
+.emacs.desktop.lock
+network-security.data
+prelude-cheatsheet.el
+prelude-cheatsheet.aux
+prelude-cheatsheet.log
