@@ -1,3 +1,5 @@
+(prelude-require-packages '(golint))
+
 (defun go-mode-setup ()
   (setq compile-command "go build -v && go test -v && go vet && golint")
   (define-key (current-local-map) "\C-c\C-c" 'compile)
